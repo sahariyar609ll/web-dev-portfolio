@@ -12,7 +12,9 @@
 .text-primary{
     color: #FD6E0A;
 }
-
+.dark-3{
+    color: #757575;
+}
 .dark-2{
     color: #474747;
 }
@@ -64,12 +66,14 @@ nav ul{
 .banner-gratings{
     font-size: 45px;
     font-weight: 600px;
-    /* margin-bottom: 5px; */
+    margin: 0 auto;
+    margin-top: 5px;
 }
 .banner-title{
     font-size: 85px;
     font-weight: bold;
     color: #181818;
+    margin-bottom: 20px;
 }
 .banner-description{
     font-size: 18px;
@@ -78,5 +82,60 @@ nav ul{
 .banner{
     display: flex;
     justify-content: space-between;
+    margin-top: 250px;
 
+}
+
+.banner-profile-img{
+    width: 580px;
+}
+
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about section styles */
+.about{
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 130px;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.about-description{
+    font-size: 18px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* skills section styles */
+.skills-description, .skills-title{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+    /* padding: 30px; */
+}
+.skills{
+    margin-top: 130px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    text-align: left;
 }
