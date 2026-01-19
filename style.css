@@ -139,3 +139,48 @@ nav ul{
 .skill-description{
     text-align: left;
 }
+
+/* resume section styles */
+.resume{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.resume-section-title{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+.experience-title{
+    color: #474747;
+}
+.experience-subtitle, .experience-desciption, .col-title, .experience-title{
+    color: #757575;
+}
+.btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+/* footer section styles */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    /* margin-top: 130px; */
+    padding: 130px 230px;
+    gap: 20px;
+}
+.footer-col{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 50px;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
